@@ -34,7 +34,8 @@ public class UserDaoImpl implements UserDao {
             ps.setString(1,user.getId());
             ps.setString(2,user.getName());
             ps.setString(3,user.getAge());
-            boolean execute = ps.execute();
+            int execute = ps.executeUpdate();
+            //ps.executeUpdate();
             System.out.println("插入=  "+execute);
 
         } catch (SQLException throwables) {

@@ -15,26 +15,31 @@ public class UserUtils {
 
         String name;
 
-        int num = (int) ((Math.random() * ((First_NAME.length() - 0) + 1)) + 0);
-        int numGril = (int) ((Math.random() * ((GRIL.length() - 0) + 1)) + 0);
-        int numBoy = (int) ((Math.random() * ((BOY.length() - 0) + 1)) + 0);
+        int num = (int) ((Math.random() * ((First_NAME.length()- 1))  + 1));
+        int numGril = (int) ((Math.random() * ((GRIL.length() - 1))  + 1));
+        int numBoy = (int) ((Math.random() * ((BOY.length() - 1))  + 1));
         if (num % 2 == 0) {
             //女
-            name = String.valueOf(charsF[num]) + String.valueOf(charsG[numGril]);
+            name = String.valueOf(charsF[num-1]) + String.valueOf(charsG[numGril-1]);
         } else {
-            name = String.valueOf(charsF[num]) + String.valueOf(charsG[numBoy]);
+            name = String.valueOf(charsF[num-1]) + String.valueOf(charsG[numBoy-1]);
         }
         return name;
     }
 
     public static int getAge() {
         Random r = new Random();
-        int num = (int) ((Math.random() * ((100 - 0) + 1)) + 0);
+        int num = (int) ((Math.random() * ((100 - 1))) + 1);
         return num;
     }
     public static void main(String[] args) {
         String name = getName();
         System.out.println(name);
+        for (int i = 0; i < 100; i++) {
+            double random = Math.random();
+            System.out.println(random);
+        }
+
     }
 
 }
