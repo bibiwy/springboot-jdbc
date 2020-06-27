@@ -1,52 +1,52 @@
-INSERT INTO ssm.user (id, name, age) VALUES ('1593266932431', '吉怡', '56');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593268950554', '惠媛', '59');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593268966602', '亓馨', '84');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593268966764', '云聪', '7');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593268966931', '权亚', '59');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593268967079', '西翠', '30');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593268967265', '衡洁', '1');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593268967432', '杨静', '68');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593268967622', '卫娟', '7');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593268967759', '崔兰', '53');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593268967927', '巩园', '98');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593268968095', '吉伊', '28');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593268968264', '郦桂', '40');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593268968427', '边莺', '38');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593268968577', '贺琼', '99');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593268968753', '舌影', '82');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593268968915', '金爱', '40');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593268969088', '郁枫', '10');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593268969249', '陆咏', '21');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593268969423', '爱晓', '77');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593268977973', '贾娣', '79');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269012967', '高飘', '29');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269013190', '壤嘉', '15');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269013373', '褚韵', '36');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269013547', '宰宁', '75');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269013714', '於媛', '31');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269013883', '经淑', '50');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269014052', '涂冰', '18');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269014704', '葛珠', '96');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269015299', '却飘', '28');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269015797', '党秀', '61');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269016044', '单雁', '79');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269016761', '凌晓', '75');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269017227', '常瑗', '32');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269017459', '师勤', '33');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269017650', '贝纯', '69');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269018000', '弓兰', '74');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269018181', '厉艳', '37');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269018319', '伊婉', '56');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269018491', '莘蕊', '16');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269018679', '曾珍', '51');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269018843', '谷茗', '23');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269018992', '娄霞', '23');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269019159', '罗菲', '55');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269019321', '禄毓', '81');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269019483', '暨梦', '25');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269019675', '查妍', '87');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269019843', '李黛', '52');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269020007', '阳艺', '85');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269020181', '卓凝', '14');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269020364', '孙晶', '66');
-INSERT INTO ssm.user (id, name, age) VALUES ('1593269033078', '羊融', '59');
+-- MySQL dump 10.13  Distrib 5.7.30, for Win64 (x86_64)
+--
+-- Host: localhost    Database: ssm
+-- ------------------------------------------------------
+-- Server version	5.7.30
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `user`
+--
+
+DROP TABLE IF EXISTS `user`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `user` (
+  `id` varchar(255) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `age` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `user`
+--
+
+LOCK TABLES `user` WRITE;
+/*!40000 ALTER TABLE `user` DISABLE KEYS */;
+INSERT INTO `user` VALUES ('1593266932431','吉怡','56'),('1593268950554','惠媛','59'),('1593268966602','亓馨','84'),('1593268966764','云聪','7'),('1593268966931','权亚','59'),('1593268967079','西翠','30'),('1593268967265','衡洁','1'),('1593268967432','杨静','68'),('1593268967622','卫娟','7'),('1593268967759','崔兰','53'),('1593268967927','巩园','98'),('1593268968095','吉伊','28'),('1593268968264','郦桂','40'),('1593268968427','边莺','38'),('1593268968577','贺琼','99'),('1593268968753','舌影','82'),('1593268968915','金爱','40'),('1593268969088','郁枫','10'),('1593268969249','陆咏','21'),('1593268969423','爱晓','77'),('1593268977973','贾娣','79'),('1593269012967','高飘','29'),('1593269013190','壤嘉','15'),('1593269013373','褚韵','36'),('1593269013547','宰宁','75'),('1593269013714','於媛','31'),('1593269013883','经淑','50'),('1593269014052','涂冰','18'),('1593269014704','葛珠','96'),('1593269015299','却飘','28'),('1593269015797','党秀','61'),('1593269016044','单雁','79'),('1593269016761','凌晓','75'),('1593269017227','常瑗','32'),('1593269017459','师勤','33'),('1593269017650','贝纯','69'),('1593269018000','弓兰','74'),('1593269018181','厉艳','37'),('1593269018319','伊婉','56'),('1593269018491','莘蕊','16'),('1593269018679','曾珍','51'),('1593269018843','谷茗','23'),('1593269018992','娄霞','23'),('1593269019159','罗菲','55'),('1593269019321','禄毓','81'),('1593269019483','暨梦','25'),('1593269019675','查妍','87'),('1593269019843','李黛','52'),('1593269020007','阳艺','85'),('1593269020181','卓凝','14'),('1593269020364','孙晶','66'),('1593269033078','羊融','59');
+/*!40000 ALTER TABLE `user` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2020-06-27 23:30:06
